@@ -41,6 +41,6 @@ npm run preview
 
 - Deployment workflow: `.github/workflows/deploy.yml`
 - Pushes to `main` build and deploy to GitHub Pages.
-- Astro is configured for repo pages at `https://daedwards06.github.io/Portfolio/` via `astro.config.mjs` (`base: '/Portfolio'`).
+- The site is served from the root domain `https://daedwards06.github.io/` (`site` in `astro.config.mjs`, no `base`).
 
 In GitHub repo settings, set Pages to deploy from **GitHub Actions**.

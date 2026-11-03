@@ -209,3 +209,23 @@ footer a:hover {
   margin: 8px 0 16px;
   display: block;
 }
+
+/* display:block lets wide tables scroll inside the card instead of the page */
+.card table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  margin: 8px 0 16px;
+}
+
+.card th,
+.card td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.card thead th {
+  border-bottom: 1px solid var(--border-strong);
+}
